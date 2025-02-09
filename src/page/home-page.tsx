@@ -46,7 +46,7 @@ export default function HomePage() {
   return (
     <section className="bg-background pt-6 pb-12 w-[80%] mx-auto">
       <h1 className="font-bold text-[5vh] text-center">Test Data</h1>
-      <div className="space-x-3 flex">
+      <div className="md:space-x-3 md:flex">
         <div>
           <Select>
             <h2 className="font-bold">Products</h2>
@@ -310,7 +310,7 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className="w-full flex justify-center gap-8 md:gap-16">
+      <div className="w-full flex justify-center gap-5 md:gap-16">
       <Button
   onClick={() => {
     setDistributionSelections([]);
