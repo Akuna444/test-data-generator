@@ -18,26 +18,26 @@ import { Checkbox } from "@/components/ui/checkbox";
 
 export default function HomePage() {
   // State for each card's selected items
-  const [sizeSelections, setSizeSelections] = useState([]);
-  const [mountingSelections, setMountingSelections] = useState([]);
-  const [distributionSelections, setDistributionSelections] = useState([]);
+  const [sizeSelections, setSizeSelections] = useState<string[]>([]);
+  const [mountingSelections, setMountingSelections] = useState<string[]>([]);
+  const [distributionSelections, setDistributionSelections] = useState<string[]>([]);
 
   // Toggle selection for Size card
-  const toggleSizeSelection = (size) => {
+  const toggleSizeSelection = (size: string) => {
     setSizeSelections((prev) =>
       prev.includes(size) ? prev.filter((item) => item !== size) : [...prev, size]
     );
   };
 
   // Toggle selection for Mounting card
-  const toggleMountingSelection = (mounting) => {
+  const toggleMountingSelection = (mounting:string) => {
     setMountingSelections((prev) =>
       prev.includes(mounting) ? prev.filter((item) => item !== mounting) : [...prev, mounting]
     );
   };
 
   // Toggle selection for Distribution card
-  const toggleDistributionSelection = (distribution) => {
+  const toggleDistributionSelection = (distribution: string) => {
     setDistributionSelections((prev) =>
       prev.includes(distribution) ? prev.filter((item) => item !== distribution) : [...prev, distribution]
     );
