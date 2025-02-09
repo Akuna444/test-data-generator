@@ -83,7 +83,7 @@ export default function HomePage() {
       <div className="grid py-6 gap-6 md:grid-cols-2 grid-cols-1 lg:grid-cols-3">
         {/* Voltage Card (unchanged) */}
         <div className="w-full">
-          <Card className="w-[350px] h-[280px]">
+          <Card className="w-[350px] min-h-[280px]">
             <CardHeader>
               <CardTitle>Voltage</CardTitle>
               <CardDescription>Select one of the options below.</CardDescription>
@@ -105,7 +105,7 @@ export default function HomePage() {
 
         {/* CCT Card (unchanged) */}
         <div className="w-full">
-          <Card className="w-[350px] h-[280px]">
+          <Card className="w-[350px] min-h-[280px]">
             <CardHeader>
               <CardTitle>CCT</CardTitle>
               <CardDescription>Select one of the options below.</CardDescription>
@@ -152,7 +152,7 @@ export default function HomePage() {
 
         {/* Size Card */}
         <div className="w-full">
-          <Card className="w-[350px] h-[280px]">
+          <Card className="w-[350px] min-h-[280px]">
             <CardHeader>
               <CardTitle>Size</CardTitle>
               <CardDescription>Select multiple options below.</CardDescription>
@@ -195,7 +195,7 @@ export default function HomePage() {
 
         {/* Mounting Card */}
         <div className="w-full">
-          <Card className="w-[350px] h-[280px]">
+          <Card className="w-[350px] min-h-[280px]">
             <CardHeader>
               <CardTitle>Mounting</CardTitle>
               <CardDescription>Select multiple options below.</CardDescription>
@@ -238,7 +238,7 @@ export default function HomePage() {
 
         {/* Distribution Card */}
         <div className="w-full">
-          <Card className="w-[350px] h-[280px]">
+          <Card className="w-[350px] min-h-[280px]">
             <CardHeader>
               <CardTitle>Distribution</CardTitle>
               <CardDescription>Select multiple options below.</CardDescription>
@@ -281,7 +281,7 @@ export default function HomePage() {
 
         {/* Emergency Battery Card (unchanged) */}
         <div className="w-full">
-          <Card className="w-[350px] h-[280px]">
+          <Card className="w-[350px] min-h-[280px]">
             <CardHeader>
               <CardTitle>Emergency Battery</CardTitle>
               <CardDescription>Select one of the options below.</CardDescription>
