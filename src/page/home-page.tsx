@@ -154,7 +154,7 @@ export default function HomePage() {
         <div className="w-full">
           <Card className="w-[350px] h-[280px]">
             <CardHeader>
-              <CardTitle>Distribution</CardTitle>
+              <CardTitle>Size</CardTitle>
               <CardDescription>Select multiple options below.</CardDescription>
             </CardHeader>
             <CardContent>
@@ -197,7 +197,7 @@ export default function HomePage() {
         <div className="w-full">
           <Card className="w-[350px] h-[280px]">
             <CardHeader>
-              <CardTitle>Distribution</CardTitle>
+              <CardTitle>Mounting</CardTitle>
               <CardDescription>Select multiple options below.</CardDescription>
             </CardHeader>
             <CardContent>
